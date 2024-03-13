@@ -1,7 +1,9 @@
 // file: add.test.js
 
-const { Candies } = require('../src/candy_basket');
+const add = require('../src/add');
 
 describe('add', () => {
-  // test cases
+  it('adds 2 and 2', () => {
+    expect(add(2, 2)).toEqual(4)
+  });
 });
